@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Juste Prix</title>
-    <script src="../../justePrix/script.js"></script>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<header>
-    <h1>Juste prix</h1>
-</header>
-<main>
-    <div id="produit"></div>
-    <br>
-    <label for="prix">Saisissez un prix (€)</label>
-    <input id="prix" type="number" pattern="[0-9]+" placeholder="Vérification">
-    <button id="verif"></button>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Juste prix</h1>
+    </header>
+    <main>
+      <!-- <div class="parRoue">
+        <div id="roue">
+        </div>
+      </div> -->
 
-    <div id="result"></div>
-</main>
-</body>
+      <div class="parInterract">
+        <div id="produit"></div>
+        <label for="prix">Saisissez un prix (€)</label>
+        <input
+          id="prix"
+          type="number"
+          pattern="[0-9]+"
+          placeholder="Vérification"
+        />
+        <button id="verif">Valider</button>
+
+        <div id="result"></div>
+      </div>
+    </main>
+  </body>
 </html>
