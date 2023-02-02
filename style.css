@@ -1,0 +1,93 @@
+body {
+    --couleurFond: #252525;
+    background-color: var(--couleurFond);
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    margin: 20px;
+    font-variant: small-caps;
+}
+
+h1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input, button {
+    padding: 5px;
+    color: white;
+}
+
+input {
+    width: 100px;
+    background: none;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+button {
+    background-color: var(--couleurFond);
+    cursor: pointer;
+    text-align: start;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+input:focus {
+    outline: none;
+}
+
+/* .parRoue{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#roue{
+    width: 50vh;
+    height: 50vh;
+    background-color: transparent;
+    border-radius: 50rem;
+    overflow: hidden;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#roue div{
+    width: calc(40% - 2px);
+    height: calc(40% - 2px);
+    border: 1px solid black;
+    background-color: blue;
+    display: flex;
+}
+
+#roue div:nth-child(1){
+    background-color: red;
+    transform: rotate(0rad);
+}
+
+#roue div:nth-child(2){
+    background-color: green;
+    transform: rotate(2rad);
+}
+
+#roue div:nth-child(3){
+    background-color: yellow;
+    transform: rotate(4rad);
+}
+
+#roue div:nth-child(4){
+    background-color: blue;
+    transform: rotate(6rad);
+}
+
+#roue div:nth-child(5){
+    background-color: purple;
+    transform: rotate(8rad);
+} */
