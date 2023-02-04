@@ -30,11 +30,11 @@ window.addEventListener("DOMContentLoaded", () => {
 
     function init() {
         divProduit.innerHTML = "Essayons de deviner le prix de ce charmant " + obj[selectedObject].name + " !"
-        for(let i = 0; i < obj.length; i++) {
-            let div = document.createElement("div");
-            div.innerHTML = obj[i].name;
-            document.getElementById("roue").appendChild(div);
-        }
+        // for(let i = 0; i < obj.length; i++) {
+        //     let div = document.createElement("div");
+        //     div.innerHTML = obj[i].name;
+        //     document.getElementById("roue").appendChild(div);
+        // }
     }
 
     function Guess() {
